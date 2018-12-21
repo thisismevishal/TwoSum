@@ -75,6 +75,7 @@ public class Main {
         return res;
     }
 
+    // Find number 'n' in sorted array 'nums' within indices 'first' and 'last'.
     private static int find(int[] nums, int n, int first, int last) {
         if (first > last) {
             return -1;
